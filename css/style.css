@@ -54,6 +54,10 @@ body {
 }
 
 /* TEXT STYLES */
+a {
+  color: #5586bc;
+}
+
 h1,
 h2,
 h3 {
@@ -180,4 +184,18 @@ p {
   height: 1px;
   margin: 25px auto;
   background-color: #d3d3d3;
+}
+
+/* MAIN BOTTOM */
+.plan-col {
+  padding: 50px;
+}
+
+h2.big {
+  line-height: 120%;
+  font-size: 36px;
+}
+
+.plan p {
+  margin-bottom: 20px;
 }
