@@ -27,6 +27,10 @@ body {
   float: left;
 }
 
+.wid-50 {
+  width: 50%;
+}
+
 .button{
   display: inline-block;
   min-width: 100px;
@@ -45,8 +49,24 @@ body {
   background-color: #7cbb02;
 }
 
+.bnt-big{
+  padding: 20px;
+}
+
+/* TEXT STYLES */
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
 /* HEADER */
 .main-header {
+  height: 560px;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: right bottom;
   background-color: #0c325a;
 }
 /* TOP NAV */
@@ -85,7 +105,25 @@ body {
   padding-right: 0;
 }
 
-
 .header-nav-right{
   width: 40%;
+}
+
+/* HEADER Jumbotron */
+.jumbotron{
+  position: relative;
+  height: 480px;
+}
+
+.jumbotron-intro{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron-intro h1{
+  margin-bottom: 30px;
+  font-size: 56px;
+  color: #fff;
 }
