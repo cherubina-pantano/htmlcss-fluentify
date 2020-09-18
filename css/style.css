@@ -44,9 +44,24 @@ body {
   border: 1px solid #fff;
 }
 
+.button:hover {
+  background-color: #fff;
+  color: #0c325a;
+}
+
 .btn-green{
   border: none;
   background-color: #7cbb02;
+}
+
+.btn-green:focus {
+  background-color: #4778aa;
+  color: #0c325a;
+}
+
+.btn-green:active {
+  background-color: #4778aa;
+  color: purple;
 }
 
 .bnt-big{
