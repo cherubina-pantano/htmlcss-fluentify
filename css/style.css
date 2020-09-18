@@ -58,6 +58,14 @@ a {
   color: #5586bc;
 }
 
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color: purple;
+}
+
 h1,
 h2,
 h3 {
@@ -112,6 +120,19 @@ p {
   text-decoration: none;
   color: #fff;
 }
+
+.header-nav li a:not(.button):hover {
+  color: #7cbb02;
+}
+
+.header-nav li a:not(.button):focus {
+  color: purple;
+}
+
+.header-nav li a:not(.button):active {
+  color: aqua;
+}
+
 .menu-inline li{
   display: inline-block;
   padding: 0 10px;
@@ -216,6 +237,10 @@ footer {
 .footer-right span i{
   text-align: right;
   padding-left: 50px;
+}
+
+.footer-right span:hover{
+  color: #fff;
 }
 
 .bnt-footer a {
